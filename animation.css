@@ -1,0 +1,53 @@
+@keyframes moveright{
+    0%{
+        top:20%;
+        left:0;
+    }  
+
+    25%{
+        top:5%;
+        left:50%;
+    }
+
+    50%{
+        top:20%;
+        left:85%;
+    }
+
+    75%{
+        top:50%;
+        left:50%;
+    }
+
+    100%{
+        top:20%;
+        left:0;
+    }
+}
+
+@keyframes moveleft{
+    0%{
+        top:20%;
+        left:85%;
+    }
+
+    25%{
+        top:50%;
+        left:50%;
+    }
+
+    50%{
+        top:20%;
+        left:0;
+    }
+
+    75%{
+        top:5%;
+        left:50%
+    }
+
+    100%{
+        top:20%;
+        left:85%;
+    }
+}
