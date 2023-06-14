@@ -1,0 +1,26 @@
+.photos{
+    margin-top: 20%;
+}
+
+.photo-one{
+    position: absolute;
+    border-radius: 50%;
+    max-width: 200px;
+    animation-name: moveright;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.photo-two{
+    max-width: 200px;
+    float: right;
+    position: absolute;
+    animation-name: moveleft;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
